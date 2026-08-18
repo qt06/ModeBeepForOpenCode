@@ -1,0 +1,17 @@
+# .NET build outputs
+bin/
+obj/
+publish/
+
+# Log files
+*.log
+modebeep.log
+
+# IDE files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Runtime temp
+modebeep-probe.txt

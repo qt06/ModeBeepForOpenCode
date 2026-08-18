@@ -1,0 +1,12 @@
+{
+  "_help": "将 plan/build 对应的 WAV 文件路径填到 sounds（相对本文件目录）；sounds 缺失时 fallbackSound 决定是否播系统音。agents 可加自定义 agent；processNames/窗口标题用于识别 opencode 终端窗口。windowTitleFilters 是数组，标题包含任一项即匹配。",
+  "windowTitleFilters": ["OC |", "Opencode"],
+  "processNames": ["WindowsTerminal"],
+  "agents": ["plan", "build"],
+  "sounds": {
+    "plan": "sounds\\plan.wav",
+    "build": "sounds\\build.wav"
+  },
+  "fallbackSound": true,
+  "delayMs": 180
+}
